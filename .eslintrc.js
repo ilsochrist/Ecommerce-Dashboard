@@ -21,6 +21,7 @@ module.exports = {
     'react/function-component-definition': 0,
     'import/extensions': 0,
     'react/prop-types': 0,
+    'react/jsx-no-constructed-context-values': 'off',
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
     'arrow-body-style': 'off',
