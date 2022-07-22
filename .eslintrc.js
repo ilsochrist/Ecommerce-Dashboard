@@ -23,6 +23,8 @@ module.exports = {
     'react/prop-types': 0,
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
+    'arrow-body-style': 'off',
+    semi: [0, 'always'],
     'import/prefer-default-export': 0,
     'max-len': [
       2,
