@@ -3,10 +3,12 @@ import { BsCurrencyDollar } from 'react-icons/bs'
 import { GoPrimitiveDot } from 'react-icons/go'
 
 import { Stacked, Pie, Button, SparkLine } from '../components'
-import { earningData, SparklineAreaData, ecomPieChartDat } from '../data/dummy'
+import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy'
 import { useStateContext } from '../contexts/ContextProvider'
 
 const Ecommerce = () => {
+  const { currentColor, currentMode } = useStateContext()
+
   return (
     <div className="mt-24">
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
@@ -18,7 +20,7 @@ const Ecommerce = () => {
             </div>
             <button
               type="button"
-              style={{ backgroundColor: 'blue' }}
+              style={{ backgroundColor: currentColor }}
               className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
             >
               <BsCurrencyDollar />
@@ -27,7 +29,7 @@ const Ecommerce = () => {
           <div className="mt-6">
             <Button
               color="white"
-              bgColor="blue"
+              bgColor={currentColor}
               text="Download"
               borderRadius="10px"
             />
@@ -90,6 +92,21 @@ const Ecommerce = () => {
 
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
+
+              <div className="mt-5">
+                <SparkLine currentColor={currentColor} id="line-sparkLine" type="Line" height="80px" width="250px" data={SparklineAreaData} color={currentColor} />
+              </div>
+              <div className="mt-10">
+                <Button
+                  color="white"
+                  bgColor={currentColor}
+                  text="Download Report"
+                  borderRadius="10px"
+                />
+              </div>
+            </div>
+            <div>
+              <Stacked currentMode={currentMode} width="320px" height="360px" />
             </div>
           </div>
         </div>
