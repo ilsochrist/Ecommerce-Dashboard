@@ -54,6 +54,7 @@ module.exports = {
       },
     ],
     'object-curly-newline': 0,
+    'jsx-a11y/label-has-associated-control': 0,
     'react/jsx-props-no-spreading': 0,
     'no-template-curly-in-string': 0,
     'react/jsx-filename-extension': 0,
