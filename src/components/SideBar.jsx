@@ -7,7 +7,7 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 import { links } from '../data/dummy'
 import { useStateContext } from '../contexts/ContextProvider'
 
-const SideBar = () => {
+const Sidebar = () => {
   const { currentColor, activeMenu, setActiveMenu, screenSize } = useStateContext()
 
   const handleCloseSideBar = () => {
@@ -67,4 +67,4 @@ const SideBar = () => {
   );
 };
 
-export default SideBar
+export default Sidebar
