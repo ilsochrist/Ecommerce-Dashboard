@@ -2,6 +2,8 @@
 
 This project that i developed i learned about react components, syncfusion uses, also Tailwaind.
 
+url: https://ilso-dashboard-ecommerce.netlify.app/
+
 <h3>## Used tools:</h3>
 <ul>
 <li>JavaScript</li>
