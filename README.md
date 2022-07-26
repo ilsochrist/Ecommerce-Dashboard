@@ -9,6 +9,7 @@ This project that i developed i learned about react components, syncfusion uses,
 <li>Tailwand</li>
 </ul>
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/100448527/181026307-9ed69351-d2c6-4842-97a4-8de899c1aedd.gif)
 
 
 ## Available Scripts
