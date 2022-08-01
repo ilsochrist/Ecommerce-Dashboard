@@ -1,6 +1,6 @@
 # ECOMMERCE-DASHBOARD
 
-This project that i developed i learned about react components, syncfusion uses, also Tailwaind.
+This project i used advanced React Best Practices such as folder and file structure, hooks, and refs. Advanced State Management of the entire application using React Context API. And Syncfusion - World's Best UI Component Suite for Building Powerful Web, Desktop, and Mobile Apps.
 
 url: https://ilso-dashboard-ecommerce.netlify.app/
 
