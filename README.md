@@ -1,6 +1,8 @@
 # ECOMMERCE-DASHBOARD
 
-This project i used advanced React Best Practices such as folder and file structure, hooks, and refs. Advanced State Management of the entire application using React Context API. And Syncfusion - World's Best UI Component Suite for Building Powerful Web, Desktop, and Mobile Apps.
+This is a web and mobile application for administrative control of web applications. 
+
+I used advanced React Best Practices such as folder and file structure, hooks, and refs. Advanced State Management of the entire application using React Context API. And Syncfusion.
 
 url: https://ilso-dashboard-ecommerce.netlify.app/
 
