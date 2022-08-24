@@ -6,7 +6,7 @@ I used advanced React Best Practices such as folder and file structure, hooks, a
 
 url: https://ilso-dashboard-ecommerce.netlify.app/
 
-<h3>## Used tools:</h3>
+<h3>Used tools:</h3>
 <ul>
 <li>JavaScript</li>
 <li>React</li>
